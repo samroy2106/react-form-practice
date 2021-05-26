@@ -1,0 +1,53 @@
+.modal {
+  font-size: 18px;
+  background: rgba(166, 77, 255);
+  font-family: monospace;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  font-family: monospace;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+.button {
+  position: relative;
+  background-color: rgb(64, 0, 128);
+  border: none;
+  border-radius: 10%;
+  font-size: 20px;
+  font-family: monospace;
+  padding: 20px;
+  padding-bottom: 40px;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  transition-duration: 1s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}

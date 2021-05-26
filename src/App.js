@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Button from './Button';
 
 const initialState = {
   name: '',
@@ -38,6 +39,7 @@ class App extends Component{
   }
 
   render() {
+    const { name, email, phone_number, address, gender, age } = this.state;
     return (
       <div className="app-box">
         <h2>Form Handling Practice</h2>
@@ -46,22 +48,18 @@ class App extends Component{
             <input name='name' value={this.state.name} type='text' onChange={this.onChange} />
             <label>Name</label>
           </div>
-          <br />
           <div class='input-box'>
             <input name='email' value={this.state.email} type='text' onChange={this.onChange} />
             <label>Email</label>
           </div>
-          <br />
           <div class='input-box'>
             <input name='phone_number' value={this.state.phone_number} type='number' onChange={this.onChange} />
             <label>Phone Number</label>
           </div>
-          <br />
           <div class='input-box'>
             <input name='address' value={this.state.address} type='text' onChange={this.onChange} />
             <label>Address</label>
           </div>
-          <br />
           <div class='input-box'>
             <select name='gender' value={this.state.gender} onChange={this.onChange} >
               <option value='Male'>Male</option>
@@ -70,19 +68,11 @@ class App extends Component{
             </select>
             <label>Gender</label>
           </div>
-          <br />
           <div class='input-box'>
             <input name='age' value={this.state.age} type='number' onChange={this.onChange} />
-            <label>Age: </label>
+            <label>Age</label>
           </div>
-          <br />
-          <a href='#' onClick={this.onSubmit}>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            Submit
-          </a>
+          <Button name={name} email={email} phone_number={phone_number} address={address} gender={gender} age={age}/>
         </form>
       </div>
     );
