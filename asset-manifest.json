@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-form-practice/static/css/main.549c2d10.chunk.css",
-    "main.js": "/react-form-practice/static/js/main.26725881.chunk.js",
-    "main.js.map": "/react-form-practice/static/js/main.26725881.chunk.js.map",
-    "runtime-main.js": "/react-form-practice/static/js/runtime-main.c263f755.js",
-    "runtime-main.js.map": "/react-form-practice/static/js/runtime-main.c263f755.js.map",
-    "static/js/2.7200fa45.chunk.js": "/react-form-practice/static/js/2.7200fa45.chunk.js",
-    "static/js/2.7200fa45.chunk.js.map": "/react-form-practice/static/js/2.7200fa45.chunk.js.map",
-    "static/js/3.d61c2b87.chunk.js": "/react-form-practice/static/js/3.d61c2b87.chunk.js",
-    "static/js/3.d61c2b87.chunk.js.map": "/react-form-practice/static/js/3.d61c2b87.chunk.js.map",
+    "main.css": "/react-form-practice/static/css/main.927f652d.chunk.css",
+    "main.js": "/react-form-practice/static/js/main.f991a615.chunk.js",
+    "main.js.map": "/react-form-practice/static/js/main.f991a615.chunk.js.map",
+    "runtime-main.js": "/react-form-practice/static/js/runtime-main.589fe548.js",
+    "runtime-main.js.map": "/react-form-practice/static/js/runtime-main.589fe548.js.map",
+    "static/js/2.042a4779.chunk.js": "/react-form-practice/static/js/2.042a4779.chunk.js",
+    "static/js/2.042a4779.chunk.js.map": "/react-form-practice/static/js/2.042a4779.chunk.js.map",
+    "static/js/3.a8ef1b18.chunk.js": "/react-form-practice/static/js/3.a8ef1b18.chunk.js",
+    "static/js/3.a8ef1b18.chunk.js.map": "/react-form-practice/static/js/3.a8ef1b18.chunk.js.map",
     "index.html": "/react-form-practice/index.html",
-    "static/css/main.549c2d10.chunk.css.map": "/react-form-practice/static/css/main.549c2d10.chunk.css.map",
-    "static/js/2.7200fa45.chunk.js.LICENSE.txt": "/react-form-practice/static/js/2.7200fa45.chunk.js.LICENSE.txt"
+    "static/css/main.927f652d.chunk.css.map": "/react-form-practice/static/css/main.927f652d.chunk.css.map",
+    "static/js/2.042a4779.chunk.js.LICENSE.txt": "/react-form-practice/static/js/2.042a4779.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c263f755.js",
-    "static/js/2.7200fa45.chunk.js",
-    "static/css/main.549c2d10.chunk.css",
-    "static/js/main.26725881.chunk.js"
+    "static/js/runtime-main.589fe548.js",
+    "static/js/2.042a4779.chunk.js",
+    "static/css/main.927f652d.chunk.css",
+    "static/js/main.f991a615.chunk.js"
   ]
 }
